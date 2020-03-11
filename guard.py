@@ -54,8 +54,8 @@ w = '\033[0m'
 banner = f'''
 {b}       _________  {w}
 {b}      |        |\ {w} - <FACEBOOK PICTURE GUARD>
-{b}      |      / || {w} - Codename : \033[92mJaxBCD{w}
-{b}      | \   /  || {w} - By : \033[93m 407 Authentic Exploit{w}
+{b}      |      / || {w} - Codename : \033[92m1.0{w}
+{b}      | \   /  || {w} - By : \033[93m ATY:3{w}
 {b}      |  \_/   || {w}
 {b}      \        // {w}
 {b}       \______//  {w}
