@@ -10,6 +10,5 @@ elif ed=="2":
 else:
     print("Error : pls choose 1 or 2.")
 if ed == "enable" or ed == "disable":
-    print("py guard.py --user={} --password={} --{}".format(u,p,ed))
-    os.system("py guard.py --user={} --password={} --{}".format(u,p,ed))
+    os.system("guard.py --user={} --password={} --{}".format(u,p,ed))
 input()
