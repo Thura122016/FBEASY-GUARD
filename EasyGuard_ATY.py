@@ -4,9 +4,11 @@ ed = input("1 or 2  : ")
 u = input("Enter email : ")
 p = input("Password : ")
 if ed=="1":
-    guard.py --user=u --password=p --enable
+    ed="enable"
 elif ed=="2":
-    guard.py --user=u --password=p --disable
+    ed = "disable"
 else:
     print("Error : pls choose 1 or 2.")
+if ed == "enable" or ed == "disable":
+    os.system("python guard.py --user={} --password={} --{}".format(u,p,ed))
 input()
